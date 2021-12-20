@@ -2,6 +2,9 @@
   command = "npm run build"
   functions = ".functions"
   publish = "dist"
+  
+  
+ [redirect]
 
 [template.environment]
   TWILIO_ACCOUNT_SID = "Your Twilio account sid"
